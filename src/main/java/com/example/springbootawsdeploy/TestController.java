@@ -10,16 +10,16 @@ public class TestController {
     
 	@GetMapping("/data")
     public String getData() {
-        return "First message from AWS Ecs";
+        return "First message from AWS Ecs and CodePipeline";
     }
 
     @GetMapping("/message")
     public String getMessage() {
-        return "Second message from AWS Ecs";
+        return "Second message from AWS Ecs and CodePipeline";
     }
     
     @GetMapping("/msgadd")
     public String getMessage1() {
-        return "Third message from AWS Ecs";
+        return "Third message from AWS Ecs and CodePipeline";
     }
 }
